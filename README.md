@@ -8,9 +8,9 @@
 * The paper: [Joint Face Detection and Alignment using   Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf)
 
 The **_MTCNN_** model utilizes **three** neural networks in cascade:
-1. Proposal Net: `pnet`
-2. Refinement Net: `rnet`
-3. Output Net: `onet`
+1. _Proposal Net_: `pnet`
+2. _Refinement Net_: `rnet`
+3. _Output Net_: `onet`
 
 **_Note_**_: each one of the networks has an associated threshold. The thresholds filter the networks' output, since each network yields a level of confidence for each prediction (face localization). See function _mtcnn_localize_faces_ in **_blur_face.py_**_
 
