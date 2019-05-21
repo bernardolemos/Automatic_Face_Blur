@@ -21,7 +21,7 @@ The **_MTCNN_** model utilizes **three** neural networks in cascade:
 |<img width="500" src="./examples/jlo.jpg"> Input image|<img width="500" src="./examples/jlo_blur.jpg"> Output Image|
 
 _Input image source: [Wiki](https://en.wikipedia.org/wiki/Jennifer_Lopez#/media/File:Jennifer_Lopez_at_GLAAD_Media_Awards_(cropped).jpg)_
-### Mutiple faces in images
+### Mutiple faces in image
 | | |
 |:-------------------------:|:-------------------------:|
 |<img width="500" src="./examples/multi_multi.jpeg"> Input image|<img width="500" src="./examples/multi_multi_blur.jpeg"> Output Image|
