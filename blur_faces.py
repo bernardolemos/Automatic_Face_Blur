@@ -3,7 +3,7 @@ import cv2
 import time
 import argparse
 import numpy as np
-import detect_face
+from mtcnn import detect_face
 import tensorflow as tf
 from PIL import Image, ImageDraw
 
@@ -93,7 +93,7 @@ def main(args):
         gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.75)
         sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options, log_device_placement=False))
         with sess.as_default():
-            pnet, rnet, onet = detect_face.create_mtcnn(sess, './')
+            pnet, rnet, onet = detect_face.create_mtcnn(sess, './mtcnn')
             #localize and blur faces, iterate over images
             for image, image_path in zip(images_l, images_paths):
                 print("Processing", image_path + "...")
