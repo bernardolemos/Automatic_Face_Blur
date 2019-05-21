@@ -32,4 +32,4 @@ _Input image source: in [Terrorist or criminal? New software uses face analysis 
 ### Options
 * `-id`(str) [default `./images`] input directory containing images
 * `-od` (str) [default `./blurs`] output directory 
-* `--b` (float) [default `99`] gaussian blur variance
+* `--b` (float) [default `99`] gaussian blur variance, if set to `<= 0`, _ex: -1_, bounding box is black  
