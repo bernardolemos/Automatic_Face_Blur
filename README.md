@@ -1,7 +1,7 @@
 # Automatic Face Blur
 
 ## Blur faces in images
-### Blurs faces present in images from a given directory
+The system blurs faces present in images from a given directory
 
 ## This work uses a pre-trained face localizer model, **_MTCNN_**
 *  The pre-trained model: [davidsandberg/facenet](https://github.com/davidsandberg/facenet)
